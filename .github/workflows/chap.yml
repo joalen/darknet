@@ -40,7 +40,7 @@ jobs:
           cd build-chap
           cmake ../
           make
-      
+
       - name: Run VMware Chap Analyzer
         run: |
           set +e
